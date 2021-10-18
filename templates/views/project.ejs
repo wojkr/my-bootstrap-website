@@ -1,0 +1,37 @@
+<%- include('../partials/head.ejs') %>
+    <%- include('../partials/navbar.ejs') %>
+
+
+        <div class="card mx-auto bg-dark text-light col-lg-6 col-sm-10">
+            <img class="card-img-top rounded" src="<%=project.img%>" alt="image of project <%=project.name%>">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <%=project.name%>
+                </h5>
+                <p class="card-text">
+                    <%=project.description%>
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-dark text-light">
+                    <%for(let info of project.info){%>
+                        <%=info%><br>
+                            <%}%>
+                </li>
+                <li class=" list-group-item bg-dark text-light">
+                    <%for(let technology of project.technology){%>
+                        &#8226; <%=technology%><br>
+                            <%}%>
+                </li>
+            </ul>
+            <div class="card-body">
+                <a href="<%=project.gitHub%>" class="btn btn-dark btn-block active" tabindex="-1" role="button"
+                    aria-disabled="true">Go to repo at GitHub</a>
+                <a href="#" class="btn btn-success btn-block active" tabindex="-1" role="button"
+                    aria-disabled="true">Open <%=project.name%></a>
+                <a href="./" class="btn btn-danger btn-block active" tabindex="-1" role="button" aria-disabled="true">Go
+                    back to projects.</a>
+            </div>
+        </div>
+
+        <%- include('../partials/footer.ejs') %>

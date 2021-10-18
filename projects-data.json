@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Solar System",
+        "description": "One of bigger project ive done, first Sass go i had.",
+        "info": [
+            "Solar system animation - PureCSS. Planet/diameter ratios changed."
+        ],
+        "technology": [
+            "CSS",
+            "SASS"
+        ],
+        "img": "https://res.cloudinary.com/b789b130931413a/image/upload/v1634573181/profolio-imgs/solar-system_aypqyu.jpg",
+        "link": "solar-system",
+        "gitHub": "https://github.com/wojkr/pureCSS-solar-system"
+    },
+    {
+        "name": "Block Breaker",
+        "description": "First game ive made. From time to time I come back to improve it.",
+        "info": [
+            "Classic Blocks Breaker game with simple CSS styling. ",
+            "Currently game contains: ",
+            "  Seven game modes,",
+            "  Twelve levels,",
+            "  Twelve bonuses,"
+        ],
+        "technology": [
+            "vanillaJS",
+            "CSS"
+        ],
+        "img": "https://res.cloudinary.com/b789b130931413a/image/upload/v1634573181/profolio-imgs/block-breaker_fk2phr.jpg",
+        "link": "block-breaker",
+        "gitHub": "https://github.com/wojkr/block-breaker"
+    }
+]
