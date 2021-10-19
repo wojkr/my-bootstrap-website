@@ -1,4 +1,4 @@
-const EMAIL = require('../../ACCESS.js');
+const EMAIL = require('../ACCESS.js');
 
 const express = require('express');
 const nodemailer = require('nodemailer');
