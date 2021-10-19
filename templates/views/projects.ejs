@@ -4,18 +4,22 @@
         <div class="container">
             <h1 class="display-4">PROJECTS</h1>
             <% for(let project of projectsData) {%>
-                <div class="card d-flex  flex-sm-row border-0 p-0 bg-white mb-3 shadow">
-                    <div class="container col-sm-4 p-0 my-auto">
-                        <img class="img-fluid shadow-sm rounded" src="<%=project.img%>" alt="Card image cap">
-                    </div>
-                    <div class="card-body text-dark">
-                        <h5 class="card-title">
-                            <%=project.name%>
-                        </h5>
-                        <p class="card-text">
-                            <%=project.description%>
-                        </p>
-                        <a href="/projects/<%=project.link%>" class="btn btn-dark">Details</a>
+                <div class="card mb-3 border-0 shadow">
+                    <div class="row g-0">
+                        <div class="col-md-6 my-auto">
+                            <img src="<%=project.img%>" class="img-fluid rounded" alt="Card image cap">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <%=project.name%>
+                                </h5>
+                                <p class="card-text">
+                                    <%=project.description%>
+                                </p>
+                                <a href="/projects/<%=project.link%>" class="btn btn-dark">Details</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <%}%>

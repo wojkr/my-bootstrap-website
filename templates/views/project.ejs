@@ -1,17 +1,16 @@
 <%- include('../partials/head.ejs') %>
     <%- include('../partials/navbar.ejs') %>
 
-
-        <div class="card mx-auto bg-dark text-light col-lg-6 col-sm-10">
-            <img class="card-img-top rounded" src="<%=project.img%>" alt="image of project <%=project.name%>">
+        <div class="card mx-auto bg-dark text-light col-lg-10 ">
             <div class="card-body">
-                <h5 class="card-title">
+                <h1 class="display-4">
                     <%=project.name%>
-                </h5>
+                </h1>
                 <p class="card-text">
                     <%=project.description%>
                 </p>
             </div>
+            <img class="card-img-top rounded" src="<%=project.img%>" alt="image of project <%=project.name%>">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item bg-dark text-light">
                     <%for(let info of project.info){%>
@@ -25,12 +24,15 @@
                 </li>
             </ul>
             <div class="card-body">
-                <a href="<%=project.gitHub%>" class="btn btn-dark btn-block active" tabindex="-1" role="button"
-                    aria-disabled="true">Go to repo at GitHub</a>
-                <a href="#" class="btn btn-success btn-block active" tabindex="-1" role="button"
-                    aria-disabled="true">Open <%=project.name%></a>
-                <a href="./" class="btn btn-danger btn-block active" tabindex="-1" role="button" aria-disabled="true">Go
-                    back to projects.</a>
+                <div class="d-grid gap-2">
+                    <a href="<%=project.gitHub%>" class="btn btn-dark btn-block active" tabindex="-1" role="button"
+                        aria-disabled="true">Go to repo at GitHub</a>
+                    <a href="#" class="btn btn-success btn-block active" tabindex="-1" role="button"
+                        aria-disabled="true">Open <%=project.name%></a>
+                    <a href="./" class="btn btn-danger btn-block active" tabindex="-1" role="button"
+                        aria-disabled="true">Go
+                        back to projects.</a>
+                </div>
             </div>
         </div>
 
