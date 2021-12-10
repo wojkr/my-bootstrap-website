@@ -27,7 +27,8 @@ app.get('/projects', (req, res) => {
 
 
 for (let project of projectsData) {
-    app.get(`/projects/${project.link}`, (req, res) => {
+    console.log(project.repoName)
+    app.get(`/projects/${project.repoName}`, (req, res) => {
         res.render(`project.ejs`, { project })
     })
 }
