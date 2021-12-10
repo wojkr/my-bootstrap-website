@@ -1,6 +1,7 @@
 [
     {
         "name": "Solar System",
+        "repoName": "pureCSS-solar-system",
         "description": "One of bigger project ive done, first Sass go i had.",
         "info": [
             "Solar system animation - PureCSS. Planet/diameter ratios changed."
@@ -10,11 +11,12 @@
             "SASS"
         ],
         "img": "https://res.cloudinary.com/b789b130931413a/image/upload/v1634573181/profolio-imgs/solar-system_aypqyu.jpg",
-        "link": "solar-system",
+        "link": "https:/wojkr.github.io/pureCSS-solar-system",
         "gitHub": "https://github.com/wojkr/pureCSS-solar-system"
     },
     {
         "name": "Block Breaker",
+        "repoName": "block-breaker",
         "description": "First game ive made. From time to time I come back to improve it.",
         "info": [
             "Classic Blocks Breaker game with simple CSS styling. ",
@@ -28,7 +30,31 @@
             "CSS"
         ],
         "img": "https://res.cloudinary.com/b789b130931413a/image/upload/v1634573181/profolio-imgs/block-breaker_fk2phr.jpg",
-        "link": "block-breaker",
+        "link": "https:/wojkr.github.io/block-breaker",
         "gitHub": "https://github.com/wojkr/block-breaker"
+    },
+    {
+        "name": "React CRUD Webiste",
+        "repoName": "react-crud-webiste",
+        "description": "My first go with React.",
+        "info": [
+            "CoffeeHouse website with full auth, CRUD user and comments. Kind of branding page with a pinch of social media",
+            "Few layers of user expirence with pages of:",
+            "  Users,",
+            "  Reviews,",
+            "  Groups,",
+            "  Events",
+            "  Products,",
+            "  Contact,",
+            "Home page of Showcase Carousel"
+        ],
+        "technology": [
+            "React",
+            "Userfront",
+            "EmailJS"
+        ],
+        "img": "#",
+        "link": "#",
+        "gitHub": "https://github.com/wojkr/react-crud-website"
     }
 ]
